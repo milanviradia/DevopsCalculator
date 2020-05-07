@@ -7,4 +7,4 @@ COPY target/DevopsCalculator-1.0-SNAPSHOT.jar /
 # switch to that directory
 WORKDIR /usr/myapp
 # run application with this command line 
-CMD ["java","-cp","DevopsCalculator-1.0-SNAPSHOT.jar","com/milan/calculator/Calculator"]
+CMD ["java","-cp","DevopsCalculator-1.0-SNAPSHOT.jar:","com/milan/calculator/Calculator"]
