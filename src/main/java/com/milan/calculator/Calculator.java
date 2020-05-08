@@ -18,13 +18,14 @@ public class Calculator {
             System.out.println("1.Addition");
             System.out.println("2.Subtraction");
             System.out.println("3.Multiplication");
-            System.out.println("4.Exit");
+            System.out.println("4.Division");
+            System.out.println("5.Exit");
             System.out.print("\nEnter your choice : ");
 
             ch = sc.nextInt();
-            if(ch==4)
+            if(ch==5)
                 break;
-            else if(ch>4 || ch<1) {
+            else if(ch>5 || ch<1) {
                 System.out.println("Invalid choice");
                 continue;
             }
@@ -53,10 +54,18 @@ public class Calculator {
                     b = sc.nextDouble();
                     System.out.println(a +" * "+ b +" = "+ multiply(a,b));
                     break;
+                case 4 :
+                    System.out.println("Division");
+                    System.out.print("Enter 1st number : ");
+                    a = sc.nextDouble();
+                    System.out.print("Enter 2nd number : ");
+                    b = sc.nextDouble();
+                    System.out.println(a +" / "+ b +" = "+ divide(a,b));
+                    break;
                 default:
                     System.out.println("Invalid option");
             }//switch ends
-            System.out.println("");
+            System.out.println(" ");
         }//while ends
     }
 
@@ -73,4 +82,13 @@ public class Calculator {
         return Double.parseDouble(df.format(a*b));
     }
 
+    public static double divide(double a, double b) {
+        double result;
+        if (b == 0) {
+            throw new IllegalArgumentException("Divisor cannot divide by zero");
+        } else {
+            result = a/b;
+        }
+        return Double.parseDouble(df.format(result));
+    }
 }

@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d83677-20c3-4ca9-b977-f9548e1aa4d3" name="Default Changelist" comment="Jenkinsfile added">
-      <change afterPath="$PROJECT_DIR$/.idea/DevopsCalculator.iml" afterDir="false" />
+    <list default="true" id="a8d83677-20c3-4ca9-b977-f9548e1aa4d3" name="Default Changelist" comment="Division functionality added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/milan/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/milan/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/milan/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/milan/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -112,7 +116,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588876567779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Jenkinsfile added">
+      <created>1588920508263</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588920508263</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Jenkinsfile added">
+      <created>1588920561458</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588920561458</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Jenkinsfile added">
+      <created>1588920606578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588920606578</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -134,7 +159,9 @@
     <MESSAGE value="&quot;Dockerfile added&quot;" />
     <MESSAGE value="pom.xml updated" />
     <MESSAGE value="Dockerfile updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile updated" />
+    <MESSAGE value="Jenkinsfile added" />
+    <MESSAGE value="Division functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Division functionality added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="199" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1588918710189">
@@ -149,30 +176,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="448" y="188" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1299.741@67.27.1299.741" timestamp="1588918438562" />
-    <state width="1276" height="175" key="GridCell.Tab.0.bottom" timestamp="1588918660240">
+    <state x="187" y="85" width="1039" height="622" key="DiffContextDialog" timestamp="1588920662696">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1588918660240" />
-    <state width="1276" height="175" key="GridCell.Tab.0.center" timestamp="1588918660239">
+    <state x="187" y="85" width="1039" height="622" key="DiffContextDialog/67.27.1299.741@67.27.1299.741" timestamp="1588920662696" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1588920576248">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1588918660239" />
-    <state width="1276" height="175" key="GridCell.Tab.0.left" timestamp="1588918660239">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1588920576248" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1588920576248">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1588918660239" />
-    <state width="1276" height="175" key="GridCell.Tab.0.right" timestamp="1588918660239">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1588920576248" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1588920576246">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1588918660239" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1588920576246" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1588920576248">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1588920576248" />
+    <state x="454" y="80" width="514" height="633" key="RollbackChangesDialog" timestamp="1588920735145">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="454" y="80" width="514" height="633" key="RollbackChangesDialog/67.27.1299.741@67.27.1299.741" timestamp="1588920735145" />
     <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1588919084008">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1588919084008" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588918248611">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588920767727">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1588918248611" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1588920767727" />
     <state x="487" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588875196317">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

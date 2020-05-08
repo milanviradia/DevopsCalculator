@@ -2,19 +2,13 @@ package com.milan.calculator;
 
 import org.junit.*;
 public class CalculatorTest {
-    private Calculator calculator;
-
-    @Before
-    public void setUp() {
-        calculator = new Calculator();
-    }
 
     @Test
     public void testAdd() {
         double a = 15;
         double b = 20;
         double expectedResult = 35;
-        double result = calculator.add(a, b);
+        double result = Calculator.add(a, b);
         Assert.assertEquals(expectedResult, result, 0.1);
     }
 
@@ -23,7 +17,7 @@ public class CalculatorTest {
         double a = 25;
         double b = 20;
         double expectedResult = 5;
-        double result = calculator.subtract(a, b);
+        double result = Calculator.subtract(a, b);
         Assert.assertEquals(expectedResult,result, 0.1);
     }
 
@@ -32,8 +26,23 @@ public class CalculatorTest {
         double a = 24;
         double b = 10;
         double expectedResult = 240;
-        double result = calculator.multiply(a, b);
+        double result = Calculator.multiply(a, b);
         Assert.assertEquals(expectedResult, result,0.00005);
     }
 
+    @Test
+    public void testDivide() {
+        double a = 56;
+        double b = 10;
+        double expectedResult = 5.6;
+        double result = Calculator.divide(a, b);
+        Assert.assertEquals(expectedResult, result,0.00005);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testDivideByZero() {
+        double a = 15;
+        double b = 0;
+        Calculator.divide(a, b);
+    }
 }
